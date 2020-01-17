@@ -43,7 +43,7 @@ def final_battle(name, race, weapon, magic):
         print('\nYou free the townspeople and lead them back to town.')
         print('\nThe king grants you a knighthood and makes you the new captain of the guard.')
         print('\nA new statue is built in the center of town.\n')
-        print("The statue depicts you with your {} and {}. Below the statue a plaque reads '[] Town Hero'.\n".format(weapon, magic, name))
+        print("The statue depicts you with your {} and {}. Below the statue a plaque reads '{} Town Hero'.\n".format(weapon, magic, name))
     if r_roll > fight:
         print('\nYou fight valiantly with your {}, but the captain defeats you in battle!'.format(weapon))
         print('\nYour game is over.\n')
