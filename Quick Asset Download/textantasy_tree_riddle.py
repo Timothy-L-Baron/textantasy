@@ -19,7 +19,7 @@ def tree_riddle(name, race):
     print('"Hello, brave {}, two paths lies before you."\n'.format(race))
     print('"One gives you a chance to enter the dungeon and save the kingdom and the other leads to certain death."')
     print('\n"The path you seek can be found in this riddle:"\n')
-    print('"There are two brothers, one brother always tells the truth and the other brother always lies."')
+    print('"There are two brothers, one brother always tells the truth and the other brother always lies.""')
     print('\nOne brother says to you "My brother would tell you to take the left path."')
     path = input("\nPlease choose your path - type 'left' or 'right':\n\n").lower()
     path = textantasy_validators.universal_validator_1(path, tree_answers)

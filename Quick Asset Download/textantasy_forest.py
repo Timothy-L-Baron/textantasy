@@ -66,7 +66,7 @@ def forest(race, weapon, magic):
             print('\nYou must fight it.')
             print("\nReady your {} and prepare to do battle. If you're wearing armor your chance to survive is greater.".format(weapon))
             fight = textantasy_do_battle.do_battle(race, weapon, magic)
-            if fight == 100:
+            if fight >= 100:
                 fight = 99
             print('\nYour chance for success is: {}%.'.format(fight))
             print('\nYour roll [between 1 - 100] must be less than or equal to {} to succeed\n'.format(fight))

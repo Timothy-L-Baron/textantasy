@@ -17,8 +17,6 @@ d_bonus_penalties = {'armor' : 10, 'amulet' : 10, 'wand' : 50, 'axe' : 85, 'swor
 d_answers = ['scout', 'charge']
 roll = ['roll']
 
-
-
 #create a function for navigating the dungeon
 def dungeon(name, race, weapon, magic):
     print('A small stone building stands before you.\n')

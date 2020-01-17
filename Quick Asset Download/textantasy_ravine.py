@@ -78,16 +78,3 @@ ropes and bridges and dwarves are great climbers. Having the armo will make eith
         print('\nYou died in your attempt to cross the ravine!')
         print('\nYour game is over.\n')
         quit()
-
-
-
-
-
-
-
-
-
-
-
-    #print('\n')
-    #print(chance)

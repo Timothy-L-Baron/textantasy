@@ -28,36 +28,36 @@ def do_battle(race, weapon, magic):
     if race == 'elf':
         chance = f_fight_probs['elf']
         if magic == 'armor':
-            chance = chance + fin_bonus_penalties['armor']
+            chance = chance + f_bonus_penalties['armor']
         if weapon == 'axe':
-            chance = chance + fin_bonus_penalties['axe']
+            chance = chance + f_bonus_penalties['axe']
         if weapon == 'sword':
-            chance = chance + fin_bonus_penalties['sword']
+            chance = chance + f_bonus_penalties['sword']
         if weapon == 'wand':
-            chance = chance + fin_bonus_penalties['wand']
+            chance = chance + f_bonus_penalties['wand']
     if race == 'dwarf':
         chance = f_fight_probs['dwarf']
         if magic == 'armor':
-            chance = chance + fin_bonus_penalties['armor']
+            chance = chance + f_bonus_penalties['armor']
         if weapon == 'axe':
-            chance = chance + fin_bonus_penalties['axe']
+            chance = chance + f_bonus_penalties['axe']
         if weapon == 'sword':
-            chance = chance + fin_bonus_penalties['sword']
+            chance = chance + f_bonus_penalties['sword']
         if weapon == 'wand':
-            chance = chance + fin_bonus_penalties['wand']
+            chance = chance + f_bonus_penalties['wand']
     if race == 'human':
         chance = f_fight_probs['human']
         if magic == 'armor':
-            chance = chance + fin_bonus_penalties['armor']
+            chance = chance + f_bonus_penalties['armor']
         if weapon == 'axe':
-            chance = chance + fin_bonus_penalties['axe']
+            chance = chance + f_bonus_penalties['axe']
         if weapon == 'sword':
-            chance = chance + fin_bonus_penalties['sword']
+            chance = chance + f_bonus_penalties['sword']
         if weapon == 'wand':
-            chance = chance + fin_bonus_penalties['wand']
+            chance = chance + f_bonus_penalties['wand']
     return chance
 
-# A function for battles
+# A second function for battles
 def do_battle2(race, weapon, magic):
     if race == 'elf':
         chance = fin_race_probs['elf']

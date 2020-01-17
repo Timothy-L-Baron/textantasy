@@ -39,6 +39,3 @@ textantasy_dungeon.dungeon(name, char_stats['race'], char_stats['weapon'], char_
 
 #make a function to det
 textantasy_final_battle.final_battle(name, char_stats['race'], char_stats['weapon'], char_stats['magic'])
-
-
-
