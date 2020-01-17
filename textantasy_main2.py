@@ -41,4 +41,3 @@ textantasy_dungeon.dungeon(name, char_stats['race'], char_stats['weapon'], char_
 textantasy_final_battle.final_battle(name, char_stats['race'], char_stats['weapon'], char_stats['magic'])
 
 
-#make a function to determine how the player games ends (for various endings)
