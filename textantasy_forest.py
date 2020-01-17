@@ -117,7 +117,6 @@ def forest(race, weapon, magic):
             print('\nCongratulations, your bold action gets you a 10% bonus to your attack roll\n')
             print('Prepare to fight!\n')
             bonus = 10
-            bonus = 10
         if r_roll > chance:
             print("\nYou weren't quick enough.")
             print('\nA disgusting goblin immediately turns to face you. You get no bonus. Was he talking to a tree?')
