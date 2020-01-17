@@ -53,7 +53,7 @@ def dungeon(name, race, weapon, magic):
             print('\nYou aim the {} at the door. A massive lgithing bolt shoots forth and destroys the door in its entirety'.format(weapon))
             print('\nMoist cool air flows up from the dungeon as you enter.')
         if r_roll > fight:
-            print('\nYou aim the {} at the door and some flowers spill out of the tip, apparently from nowehere'.format(weapon))
+            print('\nYou aim the {} at the door and some flowers - out of nowhere - spill out of the tip.'.format(weapon))
             print('\nThe wand seems to be out of charges.\n')
             print('Your game is over.\n')
             quit()
