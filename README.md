@@ -3,4 +3,4 @@ An original text-based fantasy game. My goal is to create it without looking at 
 
 It is currently in progress and can partially be played from main2.
 
-Copy all the files in the same folder and run from 'main2'.
+Copy all the files into the same folder and run from 'main2'.
