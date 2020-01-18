@@ -70,7 +70,7 @@ def do_battle2(race, weapon, magic):
         if weapon == 'wand':
             chance = chance + fin_bonus_penalties['wand']
     if race == 'dwarf':
-        chance = fin_race__probs['dwarf']
+        chance = fin_race_probs['dwarf']
         if magic == 'armor':
             chance = chance + fin_bonus_penalties['armor']
         if weapon == 'axe':
