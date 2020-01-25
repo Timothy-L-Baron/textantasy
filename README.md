@@ -5,4 +5,4 @@ It is currently in progress and can partially be played from main2.
 
 Copy all the files into the same folder and run from 'main2'.
 
-The 'quick asset download' folder contains everythng you need.
+The 'quick asset download' is a copy of all the files in a separate folder (if desired).
